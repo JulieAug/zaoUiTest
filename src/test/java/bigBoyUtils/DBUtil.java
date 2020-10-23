@@ -1,4 +1,4 @@
-package util;
+package bigBoyUtils;
 
 /**
  * @author:zhuli
@@ -6,6 +6,7 @@ package util;
  * @date 2019/9/17
  */
 import com.mysql.jdbc.Statement;
+
 import java.lang.reflect.Field;
 import java.sql.Connection;
 import java.sql.PreparedStatement;

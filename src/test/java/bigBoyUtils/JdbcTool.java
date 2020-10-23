@@ -1,4 +1,4 @@
-package util;
+package bigBoyUtils;
 
 import java.io.InputStream;
 import java.sql.Connection;
@@ -13,14 +13,6 @@ import com.mysql.jdbc.Statement;
  * @description
  * @date 2019/9/17
  */
-
-import com.mysql.jdbc.Statement;
-import java.io.InputStream;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.Properties;
 
 public class JdbcTool {
     public JdbcTool() {
