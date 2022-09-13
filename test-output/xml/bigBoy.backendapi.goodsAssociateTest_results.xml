@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="bigBoyTestReport"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.666">
+  <properties />
+  
+  
+            <testcase name="associateTest" time="0.244" classname="bigBoy.backendapi.goodsAssociateTest" />
+                <testcase name="associateTest" time="0.422" classname="bigBoy.backendapi.goodsAssociateTest" />
+      
+</testsuite>

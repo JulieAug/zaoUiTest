@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="bigBoyTestReport"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.728">
+  <properties />
+  
+  
+            <testcase name="searchCollection" time="0.074" classname="bigBoy.backendapi.collectionsTest" />
+                <testcase name="searchCollection" time="0.066" classname="bigBoy.backendapi.collectionsTest" />
+                <testcase name="collectionTest" time="1.009" classname="bigBoy.backendapi.collectionsTest" />
+                <testcase name="collectionTest" time="0.967" classname="bigBoy.backendapi.collectionsTest" />
+                <testcase name="searchCollection" time="0.291" classname="bigBoy.backendapi.collectionsTest" />
+                <testcase name="searchCollection" time="0.088" classname="bigBoy.backendapi.collectionsTest" />
+                <testcase name="collectionTest" time="1.233" classname="bigBoy.backendapi.collectionsTest" />
+      
+</testsuite>

@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="大蓝书测试报告">
+<suite name="bigBoyTestReport">
     <listeners>
         <listener class-name="org.uncommons.reportng.HTMLReporter"/>
         <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
     </listeners>
 
-    <test verbose="2" preserve-order="true" name="/Users/zhuli0513/IdeaProjects/hupuTest/run">
+    <test verbose="2" preserve-order="true" name="bigBoyTestReport">
         <classes>
-            <class name="bigBoy.loginTest"/>
-            <class name="hupu.pk.onlineTest"/>
-            <class name="hupu.pk.seriesPk"/>
-            <class name="hupu.pk.singlePk"/>
-            <class name="hupu.movie.HomeAttention"/>
-<!--            <class name="bigBoy.emailTest"/>-->
+            <class name="bigBoy.ui.login.loginTest"/>
+            <class name="bigBoy.ui.bbs.threadTest"/>
+            <class name="bigBoy.ui.bbs.articleTest"/>
         </classes>
     </test>
 

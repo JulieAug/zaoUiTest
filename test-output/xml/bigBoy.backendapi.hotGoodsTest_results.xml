@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="bigBoyTestReport"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.292">
+  <properties />
+  
+  
+            <testcase name="updateHotGoodsTest" time="0.331" classname="bigBoy.backendapi.hotGoodsTest" />
+                <testcase name="updateHotGoodsTest" time="0.333" classname="bigBoy.backendapi.hotGoodsTest" />
+                <testcase name="updateHotGoodsTest" time="0.327" classname="bigBoy.backendapi.hotGoodsTest" />
+                <testcase name="queryHotGoodsListTest" time="0.056" classname="bigBoy.backendapi.hotGoodsTest" />
+                <testcase name="deleteHotGoodsTest" time="0.064" classname="bigBoy.backendapi.hotGoodsTest" />
+                <testcase name="addHotGoodsTest" time="0.181" classname="bigBoy.backendapi.hotGoodsTest" />
+      
+</testsuite>

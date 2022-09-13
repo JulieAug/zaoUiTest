@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="bigBoyTestReport"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="6.089">
+  <properties />
+  
+  
+            <testcase name="categoryAssociateFactoryTest" time="1.202" classname="bigBoy.backendapi.categoryAssociateFactoryTest" />
+                <testcase name="categoryAssociateFactoryTest" time="1.226" classname="bigBoy.backendapi.categoryAssociateFactoryTest" />
+                <testcase name="categoryAssociateFactoryTest" time="1.252" classname="bigBoy.backendapi.categoryAssociateFactoryTest" />
+                <testcase name="categoryAssociateFactoryTest" time="1.215" classname="bigBoy.backendapi.categoryAssociateFactoryTest" />
+                <testcase name="categoryAssociateFactoryTest" time="1.194" classname="bigBoy.backendapi.categoryAssociateFactoryTest" />
+      
+</testsuite>

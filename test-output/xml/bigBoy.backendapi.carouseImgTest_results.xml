@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="bigBoyTestReport"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.281">
+  <properties />
+  
+  
+            <testcase name="deleteCarouseTest" time="0.060" classname="bigBoy.backendapi.carouseImgTest" />
+                <testcase name="updateCarouseTest" time="0.279" classname="bigBoy.backendapi.carouseImgTest" />
+                <testcase name="addCarouseTest" time="0.772" classname="bigBoy.backendapi.carouseImgTest" />
+                <testcase name="queryCarouseListTest" time="0.098" classname="bigBoy.backendapi.carouseImgTest" />
+                <testcase name="queryTopInfoTest" time="0.072" classname="bigBoy.backendapi.carouseImgTest" />
+      
+</testsuite>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="bigBoyTestReport"
+           tests="10"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="1.311">
+  <properties />
+            <testcase name="updateSeriesTest" time="0.150" classname="bigBoy.backendapi.goodsTest">
+                <failure type="java.lang.AssertionError"
+                  message="expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:513)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  org.testng.Assert.assertTrue(Assert.java:52)
+  bigBoy.backendapi.goodsTest.updateSeriesTest(goodsTest.java:113)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="goodsCommentsOnlineTest" time="0.072" classname="bigBoy.backendapi.goodsTest" />
+                <testcase name="searchGoodsByFactoryIdTest" time="0.180" classname="bigBoy.backendapi.goodsTest" />
+                <testcase name="searchByCategoryTest" time="0.136" classname="bigBoy.backendapi.goodsTest" />
+                <testcase name="updateGoodsParameters" time="0.180" classname="bigBoy.backendapi.goodsTest" />
+                <testcase name="searchGoodsTest" time="0.120" classname="bigBoy.backendapi.goodsTest" />
+                <testcase name="queryGoodsInfoByIdTest" time="0.166" classname="bigBoy.backendapi.goodsTest" />
+                <testcase name="updateGoodsPics" time="0.079" classname="bigBoy.backendapi.goodsTest" />
+                <testcase name="updateGoodsStatus" time="0.056" classname="bigBoy.backendapi.goodsTest" />
+                <testcase name="updateGoodsInfo" time="0.172" classname="bigBoy.backendapi.goodsTest" />
+      
+</testsuite>

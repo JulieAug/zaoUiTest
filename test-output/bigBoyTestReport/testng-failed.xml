@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [bigBoyTestReport]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test verbose="2" name="bigBoyTestReport">
+    <classes>
+      <class name="bigBoy.app.loginTest"/>
+      <class name="bigBoy.app.infromTest"/>
+    </classes>
+  </test> <!-- bigBoyTestReport -->
+  <test name="bigBoyTestReport(failed)">
+    <classes>
+      <class name="bigBoy.app.infromTest">
+        <methods>
+          <include name="addInformChannelTest"/>
+        </methods>
+      </class> <!-- bigBoy.app.infromTest -->
+    </classes>
+  </test> <!-- bigBoyTestReport(failed) -->
+</suite> <!-- Failed suite [bigBoyTestReport] -->

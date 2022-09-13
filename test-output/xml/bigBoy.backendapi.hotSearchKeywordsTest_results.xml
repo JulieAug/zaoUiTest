@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="bigBoyTestReport"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.435">
+  <properties />
+  
+  
+            <testcase name="deleteHotSearchKeywordsTest" time="0.048" classname="bigBoy.backendapi.hotSearchKeywordsTest" />
+                <testcase name="updateHotSearchKeywordsTest" time="0.183" classname="bigBoy.backendapi.hotSearchKeywordsTest" />
+                <testcase name="queryHotSearchKeywordsListTest" time="0.043" classname="bigBoy.backendapi.hotSearchKeywordsTest" />
+                <testcase name="addHotSearchKeywordsTest" time="0.161" classname="bigBoy.backendapi.hotSearchKeywordsTest" />
+      
+</testsuite>

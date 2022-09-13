@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="bigBoyTestReport"
+           tests="10"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.964">
+  <properties />
+  
+  
+            <testcase name="updatedisplayWindowTest" time="0.115" classname="bigBoy.backendapi.showTest" />
+                <testcase name="deletedisplayWindowTest" time="0.071" classname="bigBoy.backendapi.showTest" />
+                <testcase name="deleteShowTest" time="0.048" classname="bigBoy.backendapi.showTest" />
+                <testcase name="addShowTest" time="0.152" classname="bigBoy.backendapi.showTest" />
+                <testcase name="deleteAssociateTest" time="0.055" classname="bigBoy.backendapi.showTest" />
+                <testcase name="updateShowTest" time="0.091" classname="bigBoy.backendapi.showTest" />
+                <testcase name="queryAssociateList" time="0.056" classname="bigBoy.backendapi.showTest" />
+                <testcase name="showQueryInfoTest" time="0.071" classname="bigBoy.backendapi.showTest" />
+                <testcase name="adddisplayWindowTest" time="0.170" classname="bigBoy.backendapi.showTest" />
+                <testcase name="addAssociateTest" time="0.135" classname="bigBoy.backendapi.showTest" />
+      
+</testsuite>
